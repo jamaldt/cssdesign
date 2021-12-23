@@ -1,6 +1,16 @@
 .contenedor{
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
+    display: grid; 
+    /* grid-template-rows: 150px 150px 150px;
+    grid-auto-columns: 150px;
+    grid-auto-flow: column; */
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    gap: 20px;
+    background-color: azure;
+    height: 600px;
+    
 }
 
 .item{
