@@ -7,6 +7,13 @@
   --dark-pink: #c59ece;
   --purple: #9996cb;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #9996cb, #ab99cc, #bb9dcd, #caa1cc, #d8a6cb);
+    margin: 0;
+    height: 100vh;
+  }
+  
 .container {
   display: grid;
   grid-template: repeat(10,1fr) / repeat(10,1fr);
