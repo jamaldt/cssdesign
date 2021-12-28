@@ -43,3 +43,28 @@
     grid-column: 7 / 10;
     grid-row: 3 / 9;
 }
+.item-6{
+    font-size: 40px;
+    grid-column: 6 / 9 ;
+    grid-row: 3 / 6 ;
+    justify-items: center;
+    align-items: center;
+}
+.item-6 p{
+    margin: 0;
+}
+.item-7{
+    background: hotpink;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4 ;
+}
+.item-8{
+    font-size: 20px;
+    display: grid;
+    grid-column-start: 4;
+    grid-row: 2 / 4;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    justify-items: center;
+    align-items: center;
+}
