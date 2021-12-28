@@ -20,3 +20,8 @@ body {
   grid-template: repeat(10, 1fr) / repeat(10, 1fr);
   height: 100vh;
 }
+.item{
+    background: hotpink;
+    width: 30px;
+    height: 30px;
+}
