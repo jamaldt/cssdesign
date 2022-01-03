@@ -1,31 +1,18 @@
-
-:root {
-  --blue: #EAF0F8;
+*{
+  box-sizing: border-box;
 }
-
-body {
-  margin: 0;
-  background: var(--blue);
-  font-family: 'Roboto', sans-serif;
+.flex-container{
+  display: flex;
+  background-color: burlywood;
+  padding: 10px;
+  border: 2px solid black;
 }
-.wrapper{
-    display: grid;
-    grid-template-rows: 60px 300px auto auto;
-    height: 100vh;
+.flex-container div{
+  background-color: gainsboro;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 2px solid black;
 }
-
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cards div {
-    width: 250px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow:  10px 10px 30px #000, 
-               -10px -10px 30px #fff;
-  }
