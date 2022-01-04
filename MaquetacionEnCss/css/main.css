@@ -40,3 +40,60 @@ header .header-icons-container .icons{
 header .icons span{
     color: white;
 }
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+nav .nav-logo-container img{
+    width: 200px;
+    margin-top: 10px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+main {
+    height: 100%;
+    background-image: url('../assets/img/Cover.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+main .main-container {
+    text-align: center;
+    margin-top: 5.7rem;
+    font-family: monospace;
+}
+main .main-container .main-container-title {
+    color: white;
+    letter-spacing: 10px;
+    font-size: 40px;
+    width: 50rem;
+}
+main .main-container .main-container-buttom {
+    height: 40px;
+    background-color: #47cfac;
+    width: 100px;
+    margin: 100px auto;
+    display: grid;
+}
+main .main-container .main-container-buttom a {
+    font-size: 15px;
+    margin: auto;
+    font-weight: bold;
+}
+
