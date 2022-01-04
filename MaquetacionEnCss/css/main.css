@@ -166,3 +166,20 @@ footer p{
     margin-top: 30px;
     text-align: center;
 }
+.blogspost-img-container{
+    padding: 0 50px 40px ;
+}
+.blogspost-img-container img{
+    width: 100%;
+}
+.blogspost-main-container{
+    padding: 0 50px 40px;
+}
+
+.blogspost-main-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogspost-main-container section h1 {
+    font-size: 35px;
+}
