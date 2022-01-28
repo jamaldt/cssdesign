@@ -223,3 +223,19 @@ img{
     font-weight: 300;
     margin-bottom: 20px;
 }
+
+.card__item:nth-last-of-type(1){
+    grid-area: card1;
+}
+
+.card__item:nth-last-of-type(2){
+    grid-area: card2;
+}
+
+.card__item:nth-last-of-type(3){
+    grid-area: card3;
+}
+
+.card__item:nth-last-of-type(4){
+    grid-area: card4;
+}
