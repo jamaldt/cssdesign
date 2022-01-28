@@ -90,6 +90,15 @@ img{
     height: 4px;
     background-color: var(--color-primary);
 }
+
+.cta{
+    display: inline-block;
+    background: var(--color-btn);
+    color: var(--text-btn);
+    padding: var(--padding-btn);
+    text-align: center;
+    text-decoration: none;
+}
 /*instructor*/
 
 .instructor {
@@ -134,4 +143,29 @@ img{
     padding: var(--padding-btn);
     text-align: center;
     text-decoration: none;
+}
+
+/* about */
+.about{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    place-items: center;
+}
+
+.about__course{
+    width: 90%;
+}
+
+.about__paragraph{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.about__picture{
+    text-align: center;
+}
+
+.about__img{
+    width: 95%;
 }
