@@ -351,3 +351,36 @@ body{
 .footer__copyright::after{
     content: " hola@alexcgdesign.com";
 }
+
+
+@media screen and (max-width:768px){
+    :root{
+        --height-shape:14em;
+    }
+    .hero__container{
+        --padding-container:60px 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .hero__img{
+        order: -1;
+        height: 95%;
+    }
+    /*about*/
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        gap: 80px;
+    }
+
+    .about__course{
+        width: 100%;
+    }
+    .about__picture{
+        order: -1;
+    }
+    .about__img{
+        
+    }
+}
