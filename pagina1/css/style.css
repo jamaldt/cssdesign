@@ -381,6 +381,6 @@ body{
         order: -1;
     }
     .about__img{
-        
+        width: 100%;
     }
 }
