@@ -417,6 +417,17 @@ body{
     .course__picture--right{
         grid-column: 1/6;
     }
+    /*footer*/
+    .footer__contact{
+        grid-template-columns: 1fr;
+    }
+    .footer__texts{
+        order: 1;
+        --align-title: center;
+    }
 
+    .footer__social{
+        justify-content: space-evenly;
+    }
 
 }
