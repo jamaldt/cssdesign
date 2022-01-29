@@ -396,5 +396,27 @@ body{
         ".      card4";
     }
 
+    /* Course */
+
+    .course{
+        grid-template-columns: repeat(6,1fr);
+    }
+
+    .course__about{
+        grid-column: 1/6;
+    }
+
+    .course__about--left{
+        grid-column: 2/-1;
+    }
+
+    .course__picture{
+        grid-column: 2/-1;
+    }
+
+    .course__picture--right{
+        grid-column: 1/6;
+    }
+
 
 }
