@@ -239,3 +239,36 @@ img{
 .card__item:nth-last-of-type(4){
     grid-area: card4;
 }
+
+/*Course */
+.course{
+    --color-title:#fff;
+    --color-btn:#fff;
+    --text-btn:#444cf7;
+    color:var(--color-title);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+.course__about{
+    z-index: 100;
+    align-self: center;
+    width: 97%;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    background: var(--color-primary);
+    grid-column: 1 / 4;
+    grid-row: 2/-2;
+}
+
+.course__picture{
+    margin: 0;
+    grid-column: 3 /-1 ;
+    grid-row: 1 / -1;
+}
+.course__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
