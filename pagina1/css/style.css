@@ -133,7 +133,7 @@ body{
     font-style: italic;
     color: #615a5a;
 }
-.hero_cta{
+.hero__cta{
     display: inline-block;
     background: var(--color-btn);
     color: #fff;
@@ -430,4 +430,24 @@ body{
         justify-content: space-evenly;
     }
 
+}
+
+@media screen and (max-width:500px){
+    :root{
+        --padding-btn: 20px 0;
+    }
+    .hero__container{
+        --padding-container: 45px 0;
+    }
+    .hero__texts{
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 3rem;
+    }
+    .hero__cta{
+        display: block;
+        width: 90%;
+        
+    }
 }
