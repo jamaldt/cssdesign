@@ -448,6 +448,26 @@ body{
     .hero__cta{
         display: block;
         width: 90%;
-        
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .cta{
+        display: block;
+    }
+    /*instructor*/
+    .instructor{
+        --padding-container: 60px 0;
+    }
+    .instructor__container{
+        width: 90%;
+    }
+    /*about*/
+    .about{
+      gap: 40px;  
+    }
+    .about__course{
+        width: 100%;
     }
 }
