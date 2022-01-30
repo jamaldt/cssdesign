@@ -481,4 +481,21 @@ body{
         "card3"
         "card4";
     }
+    /*course*/
+    .course{
+        grid-template-columns: 1fr;
+        --padding-container: 80px 0 30px;
+    }
+    .course--modifier{
+        --padding-container: 0 0 80px;
+    }
+    .course__about{
+        padding: 20px 20px;
+        width: 95%;
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+    }
+    .course__picture{
+        display: none;
+    }
 }
