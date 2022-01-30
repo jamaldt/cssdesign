@@ -470,4 +470,15 @@ body{
     .about__course{
         width: 100%;
     }
+    /*card*/
+    .card__container{
+        width: 97%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    }
 }
