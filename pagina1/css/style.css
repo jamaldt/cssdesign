@@ -133,7 +133,7 @@ body{
     font-style: italic;
     color: #615a5a;
 }
-.hero_cta{
+.hero__cta{
     display: inline-block;
     background: var(--color-btn);
     color: #fff;
@@ -350,4 +350,152 @@ body{
 
 .footer__copyright::after{
     content: " hola@alexcgdesign.com";
+}
+
+
+@media screen and (max-width:768px){
+    :root{
+        --height-shape:14em;
+    }
+    .hero__container{
+        --padding-container:60px 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .hero__img{
+        order: -1;
+        height: 95%;
+    }
+    /*about*/
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        gap: 80px;
+    }
+
+    .about__course{
+        width: 100%;
+    }
+    .about__picture{
+        order: -1;
+    }
+    .about__img{
+        width: 100%;
+    }
+    /*card*/
+    .card__container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+        gap: 15px;
+        grid-template-areas: 
+        "card1      ."
+        "card1  card2"
+        "card3  card2"
+        "card3  card4"
+        ".      card4";
+    }
+
+    /* Course */
+
+    .course{
+        grid-template-columns: repeat(6,1fr);
+    }
+
+    .course__about{
+        grid-column: 1/6;
+    }
+
+    .course__about--left{
+        grid-column: 2/-1;
+    }
+
+    .course__picture{
+        grid-column: 2/-1;
+    }
+
+    .course__picture--right{
+        grid-column: 1/6;
+    }
+    /*footer*/
+    .footer__contact{
+        grid-template-columns: 1fr;
+    }
+    .footer__texts{
+        order: 1;
+        --align-title: center;
+    }
+
+    .footer__social{
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    :root{
+        --padding-btn: 20px 0;
+    }
+    .hero__container{
+        --padding-container: 45px 0;
+    }
+    .hero__texts{
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 3rem;
+    }
+    .hero__cta{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .cta{
+        display: block;
+    }
+    /*instructor*/
+    .instructor{
+        --padding-container: 60px 0;
+    }
+    .instructor__container{
+        width: 90%;
+    }
+    /*about*/
+    .about{
+      gap: 40px;  
+    }
+    .about__course{
+        width: 100%;
+    }
+    /*card*/
+    .card__container{
+        width: 97%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    }
+    /*course*/
+    .course{
+        grid-template-columns: 1fr;
+        --padding-container: 80px 0 30px;
+    }
+    .course--modifier{
+        --padding-container: 0 0 80px;
+    }
+    .course__about{
+        padding: 20px 20px;
+        width: 95%;
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+    }
+    .course__picture{
+        display: none;
+    }
 }
