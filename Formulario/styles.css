@@ -8,4 +8,26 @@
 
 body{
     font-family: 'Montserrat',sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.form{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+
+}
+
+.form__input{
+    font-family: inherit;
+}
+
+.form__cta{
+    font-family: inherit;
 }
