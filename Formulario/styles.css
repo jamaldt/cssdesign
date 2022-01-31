@@ -11,7 +11,7 @@ body{
     min-height: 100vh;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .form{
@@ -63,4 +63,11 @@ body{
     padding: .7em 0;
     border-radius: .2em;
     cursor: pointer;
+    font-weight: 400;
+}
+
+@media(max-width:450px){
+    .form{
+        padding: 3.5em 1em;
+    }
 }
